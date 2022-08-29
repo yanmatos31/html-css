@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /*Mobile first*/
-*{
-    font-family: Arial, Helvetica, sans-serif;
+*{font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     padding: 0px;
     margin: 0px;
@@ -12,9 +11,10 @@ html{
 
 }
 body{
-    background: black url(../imagens/back-phone.jpg);
+    background-image: url(../imagens/back-phone.jpg);
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 main{
     background-color: rgba(255, 255, 255, 0.363);
