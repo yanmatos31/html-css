@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /*Mobile first*/
-*{font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -28,7 +29,7 @@ h1{
     text-align: center;
     color: white;
     font-size: 2em;
-    box-shadow: 2px 2px 2px 0.3;
+    text-shadow: 2px 2px 2px 0.3;
 }
 img{
     display: block;
